@@ -7,6 +7,7 @@ udf:
 
 install:
 	cp target/drill-twitter-text*.jar ${DRILL_HOME}/jars/3rdparty && \
+	cp deps/twitter-text-2.0.10.jar target && \
 	cp deps/twitter-text-2.0.10.jar ${DRILL_HOME}/jars/3rdparty
 
 restart:

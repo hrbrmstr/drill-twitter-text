@@ -36,6 +36,14 @@ Assuming you're running in standalone mode, you can then do:
 make restart
 ```
 
+You can manually copy:
+
+- `deps/twitter-text-2.0.10.jar`
+- `target/drill-twitter-text-1.0.jar`
+- `drill-twitter-text-1.0-sources.jar`
+
+(after a successful build) to your `$DRILL_HOME/jars/3rdparty` directory and manually restart Drill as well.
+
 ## Example
 
 ```
